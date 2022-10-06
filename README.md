@@ -1,2 +1,3 @@
 # tabela de opcoes 
- exemplo simples da Estrutura While
+ -> Exemplo simples mas clássico da utilização/aplicação Estrutura While
+
