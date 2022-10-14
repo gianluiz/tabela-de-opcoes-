@@ -27,21 +27,6 @@ while opcao == 4:
             break
         except ValueError:
             print("ERRO.Digite um número, entre as opções do MENU: [1]-[2]-[3]-[4]-[5]")
-
-            v1 = int(input("Escolha o Valor 1->"))
-            print(v1)
-            break
-        except:
-            print("ERRO. Digite um Valor de Número Inteiro.")
-    while True:
-        try:
-            v2 = int(input("Escolha o Valor 2->"))
-            print(v2)
-            break
-        except:
-            print("ERRO. Digite um Valor de Número Inteiro.")
-    opcao = int(input("Digite uma opção disponível:"))
-
     if opcao == 1:
         print(f"Opção SOMA -> {v1}+{v2} = {v1 + v2}")
     elif opcao == 2:
@@ -58,6 +43,7 @@ while opcao == 4:
     else:
         print("Opção Indisponível.\nReinicie o Programa.As as opções do MENU são [1]-[2]-[3]-[4]-[5]")
 print("\nObrigado! Volte sempre!")
+
 
 
 
